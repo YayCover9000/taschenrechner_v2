@@ -46,7 +46,7 @@ public class taschenrechner_v2  {
      if(gesamtPreis>=15){
       bananenRechnung = (int)gesamtPreis / 5 - 2;
       gratisBanana = bananenRechnung;
-     }else if(gesamtPreis>=10){
+     }else if(gesamtPreis>=10){//damit zwischen 10 und 15 auhc dinge passieren
          gratisBanana++;
      }
 
